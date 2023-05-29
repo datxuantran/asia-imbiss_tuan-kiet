@@ -1,3 +1,24 @@
+const footer = [
+	{
+		id: 1,
+		description:
+			"Gebratener Reis/Nudeln anstatt gekocktem Reis nur für die Gerichte 39 bis 86",
+		preis: "2.00",
+	},
+	{
+		id: 2,
+		description:
+			"Sweet-Chili-Sauce (Flasche), Sojasauce (Flasche) oder Sambal Oelek (scharf)",
+		preis: "0.50",
+	},
+	{
+		id: 3,
+		description:
+			'Jede weitere gekochte Soße Soßenarten auf der Rückseite bei "Extras"',
+		preis: "2.00",
+	},
+];
+
 const categories = [
 	{
 		id: 1,
