@@ -1,3 +1,38 @@
+const extraItems = [
+	{
+		id: 1,
+		"primary-description": "Dip nach Wahl ",
+		"secondary-description": "Sweet-Chili-Dip, Sojasoße, Sambal Oelek (scharf)",
+		preis: "0,50",
+	},
+	{
+		id: 2,
+		"primary-description": "gekochte Soßen",
+		"secondary-description": "Soßenarten",
+		preis: "2.00",
+	},
+	{
+		id: 3,
+		"primary-description": "Portion gekochter Reis",
+		"secondary-description": "",
+		preis: "1.50",
+	},
+	{
+		id: 4,
+		"primary-description":
+			"Zu den Gerichten 39 bis 86 kann gebratener Reis oder gebratene Nudeln anstatt gekochtem Reis als Beilage bestellt werden",
+		"secondary-description": "",
+		preis: "2.00",
+	},
+	{
+		id: 5,
+		"primary-description":
+			"Liebe Gäste, wir verpacken Ihre nichtverzehren Speisen gerne ein. Für die Verpackung berechnen wir",
+		"secondary-description": "",
+		preis: "1,00",
+	},
+];
+
 const footer = [
 	{
 		id: 1,
@@ -107,7 +142,7 @@ const categories = [
 	},
 ];
 
-const dishes = `
+const dishesText = `
 01. 
 Pekingsuppe 
 2.50€
@@ -467,10 +502,10 @@ Rindfleisch2
 `;
 
 // Split the text into paragraphs
-const paragraphs = menuText.trim().split("\n\n");
+const paragraphs = dishesText.trim().split("\n\n");
 
 // Array to store the parsed items
-const menuItems = [];
+const dishes = [];
 
 // Regex patterns for each line structure
 const patterns = [
@@ -537,10 +572,10 @@ for (const paragraph of paragraphs) {
 				preis,
 			};
 
-			menuItems.push(item);
+			dishes.push(item);
 		}
 	}
 }
 
 // Print the array of items
-console.log(menuItems);
+console.log(dishes);
