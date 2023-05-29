@@ -496,9 +496,9 @@ Garnelen2
 Rindfleisch2
 8.00€
 
-39. 
-nach vietnamesischer Art (leicht scharf)2 
-8.00€ 
+39.
+nach vietnamesischer Art (leicht scharf)2
+8.00€
 
 40. 
 Chop Suey2
@@ -545,8 +545,8 @@ pikante Knoblauchsoße
 
 49. 
 knusprige Hähnchenschenkel2 
-mit Auswahl einer Soße (Soßenarten: siehe Rückseite bei „Extras")
-8.50€ 
+mit Auswahl einer Soße (Soßenarten: siehe Rückseite bei "Extras")
+8.50€
 
 50. 
 Chop Suey2
