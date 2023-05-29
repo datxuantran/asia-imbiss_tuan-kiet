@@ -1,3 +1,241 @@
+const drinks = [
+	{
+		id: 1,
+		description: "Mineralwasser",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.2,
+				price: "1.50",
+			},
+			{
+				volume: 0.4,
+				price: "2.00",
+			},
+		],
+	},
+	{
+		id: 2,
+		description: "Cola",
+		superscriptText: "3",
+		prices: [
+			{
+				volume: 0.2,
+				price: "1.50",
+			},
+			{
+				volume: 0.4,
+				price: "2.00",
+			},
+		],
+	},
+	{
+		id: 3,
+		description: "Fanta",
+		superscriptText: "3",
+		prices: [
+			{
+				volume: 0.2,
+				price: "1.50",
+			},
+			{
+				volume: 0.4,
+				price: "2.00",
+			},
+		],
+	},
+	{
+		id: 4,
+		description: "Sprite",
+		superscriptText: "3",
+		prices: [
+			{
+				volume: 0.2,
+				price: "1.50",
+			},
+			{
+				volume: 0.4,
+				price: "2.00",
+			},
+		],
+	},
+	{
+		id: 5,
+		description: "Mezzo Mix",
+		superscriptText: "3",
+		prices: [
+			{
+				volume: 0.2,
+				price: "1.50",
+			},
+			{
+				volume: 0.4,
+				price: "2.00",
+			},
+		],
+	},
+	{
+		id: 6,
+		description: "Apfelsaft",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.2,
+				price: "2.00",
+			},
+			{
+				volume: 0.4,
+				price: "2.30",
+			},
+		],
+	},
+	{
+		id: 7,
+		description: "Apfelsaftschorle",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.2,
+				price: "2.00",
+			},
+			{
+				volume: 0.4,
+				price: "2.30",
+			},
+		],
+	},
+	{
+		id: 8,
+		description: "Mango-Nektar",
+		superscriptText: "1",
+		prices: [
+			{
+				volume: 0.25,
+				price: "2.50",
+			},
+		],
+	},
+	{
+		id: 9,
+		description: "Lychee-Nektar",
+		superscriptText: "1",
+		prices: [
+			{
+				volume: 0.25,
+				price: "2.50",
+			},
+		],
+	},
+	{
+		id: 10,
+		description: "Guaven-Nektar",
+		superscriptText: "1",
+		prices: [
+			{
+				volume: 0.25,
+				price: "2.50",
+			},
+		],
+	},
+	{
+		id: 11,
+		description: "Nektarschorlen",
+		superscriptText: "1",
+		prices: [
+			{
+				volume: 0.4,
+				price: "2.80",
+			},
+		],
+	},
+	{
+		id: 12,
+		description: "Asia Jasmin Tee",
+		superscriptText: "",
+		prices: [
+			{
+				price: "3.00",
+			},
+		],
+	},
+	{
+		id: 13,
+		description: "Asia Grüner Tee",
+		superscriptText: "",
+		prices: [
+			{
+				price: "3.00",
+			},
+		],
+	},
+	{
+		id: 14,
+		description: "Stuttgarter Pils",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.5,
+				price: "2.50",
+			},
+		],
+	},
+	{
+		id: 15,
+		description: "Erdinger Hefe Weizen",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.5,
+				price: "2.80",
+			},
+		],
+	},
+	{
+		id: 16,
+		description: "Erdinger Kristall Weizen",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.5,
+				price: "2.80",
+			},
+		],
+	},
+	{
+		id: 17,
+		description: "Riesling",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.2,
+				price: "2.80",
+			},
+		],
+	},
+	{
+		id: 18,
+		description: "Trollinger",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.2,
+				price: "2.80",
+			},
+		],
+	},
+	{
+		id: 19,
+		description: "Weinschorle",
+		superscriptText: "",
+		prices: [
+			{
+				volume: 0.2,
+				price: "2.80",
+			},
+		],
+	},
+];
+
 const extraItems = [
 	{
 		id: 1,
